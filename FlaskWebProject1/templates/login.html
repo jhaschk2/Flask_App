@@ -1,0 +1,20 @@
+﻿{% extends "base.html" %}
+{% block title %} Submit Event {% endblock %}
+
+{% block content %}
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for msg in messages %}
+                <p>{{msg}}</p>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+<h1>Log into your account!</h1>
+<form action="#" method="post">
+    <p>Username:</p>
+    <p><input type="text" name="user_name" maxlength="25"/></p>
+    <p><input type="submit" value="Submit" /></p>
+</form>
+<br />
+<a href="/signup">Don't have an account? Sign up here!</a>
+{% endblock %}

@@ -1,0 +1,20 @@
+﻿{% extends "base.html" %}
+{% block title %} Submit Event {% endblock %}
+
+{% block content %}
+<h1>Submit Events</h1>
+<form action="#" method="post">
+    <p>Name:</p>
+    <p><input type="text" name="nm" /></p>
+    <p>Title:</p>
+    <p><input type="text" name="ttl" /></p>
+    <p>Date:</p>
+    <input type="datetime-local"
+           id="dt"
+           name="dt"
+           value="2023-01-01T00:00" />
+    <p>Description:</p>
+    <p><input type="text" name="desc" /></p>
+    <p><input type="submit" value="Submit" /></p>
+</form>
+{% endblock %}

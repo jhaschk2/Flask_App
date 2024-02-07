@@ -1,0 +1,54 @@
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Events feed</title><id>urn:uuid:e4bc7d8a-787f-4bd3-8c97-454ba700b0da</id><updated>2023-10-04T16:30:42Z</updated><entry>
+	<title>Garden night</title>
+	<id>urn:uuid:75e661d3-9d63-46e2-89da-535b85b94e35</id>
+	<published>2023-10-03T10:03:08Z</published>
+	<updated>2023-10-03T10:03:08Z</updated>
+	<summary>Free flowers!</summary>
+	<author>
+	<name>Free flowers!</name>
+	</author></entry>
+<entry>
+	<title>Test</title>
+	<id>PascaleTest2023-10-20T12:40:23</id>
+	<published>2023-10-20T12:40:23Z</published>
+	<updated>2023-10-20T12:40:23Z</updated>
+	<summary>Testing</summary>
+	<author>
+	<name>Testing</name>
+	</author></entry>
+<entry>
+	<title>ef</title>
+	<id>ewfef2023-10-21T12:11:05</id>
+	<published>2023-10-21T12:11:05Z</published>
+	<updated>2023-10-21T12:11:05Z</updated>
+	<summary></summary>
+	<author>
+	<name></name>
+	</author></entry>
+<entry>
+	<title>wef</title>
+	<id>ewfwef2023-10-21T12:13:03</id>
+	<published>2023-10-21T12:13:03Z</published>
+	<updated>2023-10-21T12:13:03Z</updated>
+	<summary>ewf</summary>
+	<author>
+	<name>ewf</name>
+	</author></entry>
+<entry>
+	<title>zzz</title>
+	<id>zzzzzzz2023-10-21T12:20:40</id>
+	<published>2023-10-21T12:20:40Z</published>
+	<updated>2023-10-21T12:20:40Z</updated>
+	<summary></summary>
+	<author>
+	<name></name>
+	</author></entry>
+<entry>
+	<title>BEBOU</title>
+	<id>BONJOURBEBOU2023-10-25T18:14:04</id>
+	<published>2023-10-25T18:14:04Z</published>
+	<updated>2023-10-25T18:14:04Z</updated>
+	<summary><3</summary>
+	<author>
+	<name><3</name>
+	</author></entry>

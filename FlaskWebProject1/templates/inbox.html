@@ -1,0 +1,16 @@
+﻿{% extends "base.html" %}
+{% block title %} Upcoming Events: {% endblock %}
+
+{% block content %}
+<h1>Upcoming Events:</h1>
+    {% for item in events %}
+        <p>Title:{{item.name}}</p>
+        <p>Description:{{item.content}}</p>
+        <p>Location:{{item.location}}</p>
+        <p>Starting:{{item.startTime}}</p>
+        <p>Ending:{{item.endTime}}</p>
+        <p>Organizer:{{item.attributedTo}}</p>
+        <br />
+    {% endfor %}
+    <a href="/form">Submit more events!</a>
+{% endblock %}

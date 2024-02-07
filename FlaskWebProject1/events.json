@@ -1,0 +1,13 @@
+{
+    "@context": "https://www.w3.org/ns/activitystreams",
+    "attributedTo": "www.pythonanywhere.com",
+    "content": "Testing some stuffff",
+    "endTime": "2023-01-01T00:00",
+    "id": "www.pythonanywhere.combfd27f65-9228-45b8-b510-e51b8d3eecfa",
+    "location": "Wilkens",
+    "name": "Lukas",
+    "published": "2023-12-22T16:13:16",
+    "startTime": "2023-01-01T00:00",
+    "type": "Event",
+    "updated": "2023-12-22T16:13:16"
+}

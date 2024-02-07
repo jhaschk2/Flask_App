@@ -1,0 +1,29 @@
+﻿{% extends "base.html" %}
+{% block title %} Submit Event {% endblock %}
+
+{% block content %}
+<h1>Submit Events</h1>
+<form action="#" method="post">
+    <p>Title:</p>
+    <p><input type="text" name="name" maxlength="200" /></p>
+    <p>Description:</p>
+    <p><input type="text" name="content" maxlength="500" /></p>
+    <p>Start:</p>
+    <input type="datetime-local"
+           id="startTime"
+           name="startTime"
+           value="2023-01-01T00:00" />
+    <p>End (optional):</p>
+    <input type="datetime-local"
+           id="endTime"
+           name="endTime"
+           value="2023-01-01T00:00" />
+    <p>Location:</p>
+    <p><input type="text" name="location" maxlength="200" /></p>
+    <p>Bild (optional, bitte einen Link zum Bild angeben):</p>
+    <p><input type="text" name="image" maxlength="500" /></p>
+    <p>Untertitel für das Bild:</p>
+    <p><input type="text" name="image_name" maxlength="500" /></p>
+    <p><input type="submit" value="Submit" /></p>
+</form>
+{% endblock %}
